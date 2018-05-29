@@ -1,0 +1,25 @@
+type: module
+name: Content Pool Data Model
+description: 'Core module packaging the data model configuration.'
+package: Wirtschaftsverlag Content Pool
+core: '8.x'
+dependencies:
+  - drupal:crop
+  - drupal:datetime
+  - drupal:entity_reference_revisions
+  - drupal:file
+  - drupal:image
+  - drupal:link
+  - drupal:media_entity
+  - drupal:media_entity_image
+  - drupal:media_entity_instagram
+  - drupal:media_entity_pinterest
+  - drupal:media_entity_slideshow
+  - drupal:media_entity_twitter
+  - drupal:media_expire
+  - drupal:metatag
+  - drupal:node
+  - drupal:taxonomy
+  - drupal:text
+  - drupal:user
+  - drupal:video_embed_field
