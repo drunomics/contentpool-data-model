@@ -22,4 +22,4 @@ dependencies:
   - drupal:taxonomy
   - drupal:text
   - drupal:user
-  - drupal:video_embed_field
+  - drupal:video_embed_media
