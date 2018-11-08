@@ -10,6 +10,7 @@ dependencies:
   - drupal:file
   - drupal:image
   - drupal:link
+  - drupal:markup_field
   - drupal:media_entity
   - drupal:media_entity_image
   - drupal:media_entity_instagram
