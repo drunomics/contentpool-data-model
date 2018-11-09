@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Install file.
+ */
+
+use Drupal\Core\Config\FileStorage;
+
+/**
+ * Install the contentpool_data_model module.
+ */
+function contentpool_data_model_install() {
+  // To ensure data model brings desired configuration state, thus import config
+  // from 'override' directory.
+  $module_handler = \Drupal::service('module_handler');
+  $config_path = $module_handler->getModule('contentpool_data_model')->getPath() . '/config/override';
+  $source = new FileStorage($config_path);
+
+  $config_storage = \Drupal::service('config.storage');
+  $config_files = file_scan_directory($config_path, '/.*\.yml$/');
+  foreach ($config_files as $config_file) {
+    $config_storage->write($config_file->name, $source->read($config_file->name));
+  }
+}
