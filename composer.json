@@ -18,6 +18,11 @@
   "extra": {
     "branch-alias": {
       "dev-8.x-1.x": "1.0.x-dev"
+    },
+    "patches": {
+      "drupal/json_field": {
+        "Issue #2955173 Fix fatal error during module installation": "https://www.drupal.org/files/issues/2018-03-22/json_field-replace-this-2955173-2-08.patch"
+      }
     }
   },
   "require": {
