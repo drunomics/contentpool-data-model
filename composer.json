@@ -23,6 +23,7 @@
   "require": {
     "drupal/crop": "^1.0",
     "drupal/entity_reference_revisions": "^1.0",
+    "drupal/json_field": "^1.0@RC",
     "drupal/markup_field": "^1.0@alpha",
     "drupal/media_entity": "1.7",
     "drupal/media_entity_instagram": "^1.0",
