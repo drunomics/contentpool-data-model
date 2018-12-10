@@ -1,0 +1,20 @@
+uuid: b47b6450-b88d-4142-9544-1bfafb85b1ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - json_field
+    - node
+id: node.field_data
+field_name: field_data
+entity_type: node
+type: json
+settings:
+  size: 16777216
+module: json_field
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

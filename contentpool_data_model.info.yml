@@ -9,6 +9,7 @@ dependencies:
   - drupal:entity_reference_revisions
   - drupal:file
   - drupal:image
+  - drupal:json_field
   - drupal:link
   - drupal:markup_field
   - drupal:media_entity
