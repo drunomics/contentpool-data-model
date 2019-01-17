@@ -7,7 +7,7 @@ dependencies:
   - drupal:crop
   - drupal:datetime
   - drupal:entity_reference_revisions
-  - drupal:file
+  - drupal:file_entity
   - drupal:image
   - drupal:json_field
   - drupal:link
