@@ -21,7 +21,7 @@
     }
   },
   "require": {
-    "drupal/crop": "^2.1",
+    "drupal/crop": "2.0",
     "drupal/entity_reference_revisions": "^1.0",
     "drupal/json_field": "^1.0@RC",
     "drupal/markup_field": "^1.0@alpha",
