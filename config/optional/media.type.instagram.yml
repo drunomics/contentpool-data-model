@@ -14,9 +14,9 @@ third_party_settings:
 id: instagram
 label: Instagram
 description: ''
-type: instagram
+source: instagram
 queue_thumbnail_downloads: false
 new_revision: false
-type_configuration:
+source_configuration:
   source_field: field_url
 field_map: {  }
