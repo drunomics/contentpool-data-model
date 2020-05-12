@@ -12,8 +12,7 @@ dependencies:
   - drupal:json_field
   - drupal:link
   - drupal:markup_field
-  - drupal:media_entity
-  - drupal:media_entity_image
+  - drupal:media
   - drupal:media_entity_instagram
   - drupal:media_entity_pinterest
   - drupal:media_entity_slideshow
@@ -24,4 +23,3 @@ dependencies:
   - drupal:taxonomy
   - drupal:text
   - drupal:user
-  - drupal:video_embed_media
