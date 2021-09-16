@@ -26,7 +26,7 @@
     "drupal/json_field": "^1.0@RC",
     "drupal/markup_field": "^1.0@alpha",
     "drupal/file_entity": "^2.0@beta",
-    "drupal/media_entity_instagram": "^2.0",
+    "drupal/media_entity_instagram": "^3.0",
     "drupal/media_entity_pinterest": "^2.2",
     "drupal/media_entity_slideshow": "^2.0",
     "drupal/media_entity_twitter": "^2.6",
